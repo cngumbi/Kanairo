@@ -30,9 +30,15 @@
     <ClInclude Include="src\Kanairo\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Kanairo\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Kanairo\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kanairo\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
