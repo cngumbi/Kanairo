@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kanairo">
+      <UniqueIdentifier>{EA54517B-5634-D016-5F4C-5BEDCBAA3678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Kanairo.h" />
+    <ClInclude Include="src\Kanairo\Application.h">
+      <Filter>Kanairo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kanairo\Core.h">
+      <Filter>Kanairo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kanairo\EntryPoint.h">
+      <Filter>Kanairo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kanairo\Log.h">
+      <Filter>Kanairo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Kanairo\Application.cpp">
+      <Filter>Kanairo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kanairo\Log.cpp">
+      <Filter>Kanairo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

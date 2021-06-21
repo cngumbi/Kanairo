@@ -1,5 +1,5 @@
 workspace "Kanairo"
-    architecture "x86"
+    architecture "x64"
     
 
     configurations
@@ -34,7 +34,7 @@ project "Kanairo"
     filter "system:windows"
         cppdialect "C++17"
         staticruntime "On"
-        systemversion "10.0.18362.0"
+        systemversion "latest"
 
         defines
         {
@@ -90,7 +90,7 @@ project "Nairo"
     filter "system:windows"
         cppdialect "C++17"
         staticruntime "On"
-        systemversion "10.0.18362.0"
+        systemversion "latest"
 
         defines
         {
