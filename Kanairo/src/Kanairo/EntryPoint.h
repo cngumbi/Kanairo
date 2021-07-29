@@ -1,6 +1,6 @@
 #pragma once
 
-
+ 
 #ifdef KN_PLATFORM_WINDOWS
 
 //how to create/return a kanairo application
